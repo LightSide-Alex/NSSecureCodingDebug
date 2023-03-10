@@ -10,7 +10,7 @@ import XCTest
 
 class NSSecureCodingFrameworkTests: XCTestCase {
   func test_archiver_fullCycle() throws {
-    let sample = MyCustomClass(isSecureCoded: true)
+    let sample = MyCustomClass()
     let sut = MyCustomClassArchiver()
     
     let data = try sut.archive([sample])

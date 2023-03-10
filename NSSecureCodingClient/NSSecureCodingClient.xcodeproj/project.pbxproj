@@ -50,6 +50,7 @@
 		AE92150B29BB97BF00284799 /* NSSecureCodingClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSSecureCodingClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE92150F29BB97BF00284799 /* NSSecureCodingClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSSecureCodingClientTests.swift; sourceTree = "<group>"; };
 		AE92152929BB9A8B00284799 /* NSSecureCodingFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NSSecureCodingFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE92152D29BB9B9A00284799 /* NSSecureCodingFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NSSecureCodingFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +122,7 @@
 		AE92152829BB9A8B00284799 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE92152D29BB9B9A00284799 /* NSSecureCodingFramework.framework */,
 				AE92152929BB9A8B00284799 /* NSSecureCodingFramework.framework */,
 			);
 			name = Frameworks;

@@ -18,8 +18,8 @@ public class MyCustomClass: NSObject, NSSecureCoding {
     case isSecureCoded
   }
   
-  public init(isSecureCoded: Bool) {
-    self.isSecureCoded = isSecureCoded
+  public override init() {
+    self.isSecureCoded = true
     super.init()
   }
   
