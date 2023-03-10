@@ -13,8 +13,8 @@ class NSSecureCodingFrameworkTests: XCTestCase {
     let sample = MyCustomClass(isSecureCoded: true)
     let sut = MyCustomClassArchiver()
     
-    let data = try sut.archive(sample)
-    let result = try sut.unarchive(encodedData: data)
+    let data = try sut.archive([sample])
+    let result = try sut.unarchive(encodedData: data)?.first
     
     XCTAssertEqual(sample, result)
   }
