@@ -18,9 +18,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AE0D78C329BB920400F21574"
-               BuildableName = "NSSecureCodingDebugTests.xctest"
-               BlueprintName = "NSSecureCodingDebugTests"
-               ReferencedContainer = "container:NSSecureCodingDebug.xcodeproj">
+               BuildableName = "NSSecureCodingFrameworkTests.xctest"
+               BlueprintName = "NSSecureCodingFrameworkTests"
+               ReferencedContainer = "container:NSSecureCodingFramework.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>

@@ -5,6 +5,6 @@
       location = "group:NSSecureCodingClient/NSSecureCodingClient.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:NSSecureCodingDebug.xcodeproj">
+      location = "group:/Users/oleksandrbalan/Desktop/Development/TB-sandbox/NSSecureCodingDebug/NSSecureCodingFramework.xcodeproj">
    </FileRef>
 </Workspace>

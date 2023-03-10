@@ -1,14 +1,14 @@
 //
-//  NSSecureCodingDebugTests.swift
-//  NSSecureCodingDebugTests
+//  NSSecureCodingFrameworkTests.swift
+//  NSSecureCodingFrameworkTests
 //
 //  Created by Oleksandr Balan on 2023-03-10.
 //
 
 import XCTest
-@testable import NSSecureCodingDebug
+@testable import NSSecureCodingFramework
 
-class NSSecureCodingDebugTests: XCTestCase {
+class NSSecureCodingFrameworkTests: XCTestCase {
   func test_archiver_fullCycle() throws {
     let sample = MyCustomClass(isSecureCoded: true)
     let sut = MyCustomClassArchiver()

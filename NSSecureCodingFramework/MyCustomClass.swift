@@ -1,6 +1,6 @@
 //
 //  MyCustomClass.swift
-//  NSSecureCodingDebug
+//  NSSecureCodingFramework
 //
 //  Created by Oleksandr Balan on 2023-03-10.
 //

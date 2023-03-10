@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE0D78C529BB920400F21574 /* NSSecureCodingDebug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0D78BC29BB920400F21574 /* NSSecureCodingDebug.framework */; };
-		AE0D78CA29BB920400F21574 /* NSSecureCodingDebugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0D78C929BB920400F21574 /* NSSecureCodingDebugTests.swift */; };
-		AE0D78CB29BB920400F21574 /* NSSecureCodingDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = AE0D78BF29BB920400F21574 /* NSSecureCodingDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE0D78C529BB920400F21574 /* NSSecureCodingFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0D78BC29BB920400F21574 /* NSSecureCodingFramework.framework */; };
+		AE0D78CA29BB920400F21574 /* NSSecureCodingFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0D78C929BB920400F21574 /* NSSecureCodingFrameworkTests.swift */; };
+		AE0D78CB29BB920400F21574 /* NSSecureCodingFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = AE0D78BF29BB920400F21574 /* NSSecureCodingFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE0D78D529BB925900F21574 /* MyCustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0D78D429BB925900F21574 /* MyCustomClass.swift */; };
 		AE0D78D729BB934900F21574 /* MyCustomClassArchiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0D78D629BB934900F21574 /* MyCustomClassArchiver.swift */; };
 /* End PBXBuildFile section */
@@ -25,10 +25,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AE0D78BC29BB920400F21574 /* NSSecureCodingDebug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSSecureCodingDebug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE0D78BF29BB920400F21574 /* NSSecureCodingDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSSecureCodingDebug.h; sourceTree = "<group>"; };
-		AE0D78C429BB920400F21574 /* NSSecureCodingDebugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSSecureCodingDebugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE0D78C929BB920400F21574 /* NSSecureCodingDebugTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSSecureCodingDebugTests.swift; sourceTree = "<group>"; };
+		AE0D78BC29BB920400F21574 /* NSSecureCodingFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSSecureCodingFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0D78BF29BB920400F21574 /* NSSecureCodingFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSSecureCodingFramework.h; sourceTree = "<group>"; };
+		AE0D78C429BB920400F21574 /* NSSecureCodingFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSSecureCodingFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0D78C929BB920400F21574 /* NSSecureCodingFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSSecureCodingFrameworkTests.swift; sourceTree = "<group>"; };
 		AE0D78D429BB925900F21574 /* MyCustomClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomClass.swift; sourceTree = "<group>"; };
 		AE0D78D629BB934900F21574 /* MyCustomClassArchiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomClassArchiver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE0D78C529BB920400F21574 /* NSSecureCodingDebug.framework in Frameworks */,
+				AE0D78C529BB920400F21574 /* NSSecureCodingFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +55,8 @@
 		AE0D78B229BB920400F21574 = {
 			isa = PBXGroup;
 			children = (
-				AE0D78BE29BB920400F21574 /* NSSecureCodingDebug */,
-				AE0D78C829BB920400F21574 /* NSSecureCodingDebugTests */,
+				AE0D78BE29BB920400F21574 /* NSSecureCodingFramework */,
+				AE0D78C829BB920400F21574 /* NSSecureCodingFrameworkTests */,
 				AE0D78BD29BB920400F21574 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,28 +64,28 @@
 		AE0D78BD29BB920400F21574 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE0D78BC29BB920400F21574 /* NSSecureCodingDebug.framework */,
-				AE0D78C429BB920400F21574 /* NSSecureCodingDebugTests.xctest */,
+				AE0D78BC29BB920400F21574 /* NSSecureCodingFramework.framework */,
+				AE0D78C429BB920400F21574 /* NSSecureCodingFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE0D78BE29BB920400F21574 /* NSSecureCodingDebug */ = {
+		AE0D78BE29BB920400F21574 /* NSSecureCodingFramework */ = {
 			isa = PBXGroup;
 			children = (
-				AE0D78BF29BB920400F21574 /* NSSecureCodingDebug.h */,
+				AE0D78BF29BB920400F21574 /* NSSecureCodingFramework.h */,
 				AE0D78D429BB925900F21574 /* MyCustomClass.swift */,
 				AE0D78D629BB934900F21574 /* MyCustomClassArchiver.swift */,
 			);
-			path = NSSecureCodingDebug;
+			path = NSSecureCodingFramework;
 			sourceTree = "<group>";
 		};
-		AE0D78C829BB920400F21574 /* NSSecureCodingDebugTests */ = {
+		AE0D78C829BB920400F21574 /* NSSecureCodingFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
-				AE0D78C929BB920400F21574 /* NSSecureCodingDebugTests.swift */,
+				AE0D78C929BB920400F21574 /* NSSecureCodingFrameworkTests.swift */,
 			);
-			path = NSSecureCodingDebugTests;
+			path = NSSecureCodingFrameworkTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,16 +95,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE0D78CB29BB920400F21574 /* NSSecureCodingDebug.h in Headers */,
+				AE0D78CB29BB920400F21574 /* NSSecureCodingFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AE0D78BB29BB920400F21574 /* NSSecureCodingDebug */ = {
+		AE0D78BB29BB920400F21574 /* NSSecureCodingFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE0D78CE29BB920400F21574 /* Build configuration list for PBXNativeTarget "NSSecureCodingDebug" */;
+			buildConfigurationList = AE0D78CE29BB920400F21574 /* Build configuration list for PBXNativeTarget "NSSecureCodingFramework" */;
 			buildPhases = (
 				AE0D78B729BB920400F21574 /* Headers */,
 				AE0D78B829BB920400F21574 /* Sources */,
@@ -115,14 +115,14 @@
 			);
 			dependencies = (
 			);
-			name = NSSecureCodingDebug;
+			name = NSSecureCodingFramework;
 			productName = NSSecureCodingDebug;
-			productReference = AE0D78BC29BB920400F21574 /* NSSecureCodingDebug.framework */;
+			productReference = AE0D78BC29BB920400F21574 /* NSSecureCodingFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AE0D78C329BB920400F21574 /* NSSecureCodingDebugTests */ = {
+		AE0D78C329BB920400F21574 /* NSSecureCodingFrameworkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE0D78D129BB920400F21574 /* Build configuration list for PBXNativeTarget "NSSecureCodingDebugTests" */;
+			buildConfigurationList = AE0D78D129BB920400F21574 /* Build configuration list for PBXNativeTarget "NSSecureCodingFrameworkTests" */;
 			buildPhases = (
 				AE0D78C029BB920400F21574 /* Sources */,
 				AE0D78C129BB920400F21574 /* Frameworks */,
@@ -133,9 +133,9 @@
 			dependencies = (
 				AE0D78C729BB920400F21574 /* PBXTargetDependency */,
 			);
-			name = NSSecureCodingDebugTests;
+			name = NSSecureCodingFrameworkTests;
 			productName = NSSecureCodingDebugTests;
-			productReference = AE0D78C429BB920400F21574 /* NSSecureCodingDebugTests.xctest */;
+			productReference = AE0D78C429BB920400F21574 /* NSSecureCodingFrameworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -157,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AE0D78B629BB920400F21574 /* Build configuration list for PBXProject "NSSecureCodingDebug" */;
+			buildConfigurationList = AE0D78B629BB920400F21574 /* Build configuration list for PBXProject "NSSecureCodingFramework" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -170,8 +170,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE0D78BB29BB920400F21574 /* NSSecureCodingDebug */,
-				AE0D78C329BB920400F21574 /* NSSecureCodingDebugTests */,
+				AE0D78BB29BB920400F21574 /* NSSecureCodingFramework */,
+				AE0D78C329BB920400F21574 /* NSSecureCodingFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -207,7 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE0D78CA29BB920400F21574 /* NSSecureCodingDebugTests.swift in Sources */,
+				AE0D78CA29BB920400F21574 /* NSSecureCodingFrameworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +216,7 @@
 /* Begin PBXTargetDependency section */
 		AE0D78C729BB920400F21574 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AE0D78BB29BB920400F21574 /* NSSecureCodingDebug */;
+			target = AE0D78BB29BB920400F21574 /* NSSecureCodingFramework */;
 			targetProxy = AE0D78C629BB920400F21574 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -455,7 +455,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE0D78B629BB920400F21574 /* Build configuration list for PBXProject "NSSecureCodingDebug" */ = {
+		AE0D78B629BB920400F21574 /* Build configuration list for PBXProject "NSSecureCodingFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE0D78CC29BB920400F21574 /* Debug */,
@@ -464,7 +464,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE0D78CE29BB920400F21574 /* Build configuration list for PBXNativeTarget "NSSecureCodingDebug" */ = {
+		AE0D78CE29BB920400F21574 /* Build configuration list for PBXNativeTarget "NSSecureCodingFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE0D78CF29BB920400F21574 /* Debug */,
@@ -473,7 +473,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE0D78D129BB920400F21574 /* Build configuration list for PBXNativeTarget "NSSecureCodingDebugTests" */ = {
+		AE0D78D129BB920400F21574 /* Build configuration list for PBXNativeTarget "NSSecureCodingFrameworkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE0D78D229BB920400F21574 /* Debug */,
