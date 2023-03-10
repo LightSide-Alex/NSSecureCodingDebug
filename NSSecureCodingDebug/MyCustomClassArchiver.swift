@@ -7,13 +7,13 @@
 
 import Foundation
 
-class MyCustomClassArchiver {
-  func archive(_ object: MyCustomClass) throws -> Data {
+public class MyCustomClassArchiver {
+  public func archive(_ object: MyCustomClass) throws -> Data {
     let data = try NSKeyedArchiver.archivedData(withRootObject: object, requiringSecureCoding: true)
     return data
   }
   
-  func unarchive(encodedData: Data) throws -> MyCustomClass? {
+  public func unarchive(encodedData: Data) throws -> MyCustomClass? {
     return try NSKeyedUnarchiver.unarchivedObject(ofClasses: [MyCustomClass.self], from: encodedData) as? MyCustomClass
   }
 }
