@@ -8,6 +8,8 @@
 import Foundation
 
 public class MyCustomClassArchiver {
+  public init() {}
+  
   public func archive(_ object: MyCustomClass) throws -> Data {
     let data = try NSKeyedArchiver.archivedData(withRootObject: object, requiringSecureCoding: true)
     return data

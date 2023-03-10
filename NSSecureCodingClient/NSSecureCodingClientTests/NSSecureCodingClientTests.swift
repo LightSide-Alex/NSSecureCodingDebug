@@ -6,6 +6,16 @@
 //
 
 import XCTest
+import NSSecureCodingFramework
 
 final class NSSecureCodingClientTests: XCTestCase {
+  func test_archiver_fullCycle() throws {
+    let sample = MyCustomClass(isSecureCoded: true)
+    let sut = MyCustomClassArchiver()
+    
+    let data = try sut.archive(sample)
+    let result = try sut.unarchive(encodedData: data)
+    
+    XCTAssertEqual(sample, result)
+  }
 }
