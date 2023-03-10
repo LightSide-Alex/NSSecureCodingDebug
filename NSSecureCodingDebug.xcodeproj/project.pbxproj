@@ -10,6 +10,8 @@
 		AE0D78C529BB920400F21574 /* NSSecureCodingDebug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0D78BC29BB920400F21574 /* NSSecureCodingDebug.framework */; };
 		AE0D78CA29BB920400F21574 /* NSSecureCodingDebugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0D78C929BB920400F21574 /* NSSecureCodingDebugTests.swift */; };
 		AE0D78CB29BB920400F21574 /* NSSecureCodingDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = AE0D78BF29BB920400F21574 /* NSSecureCodingDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE0D78D529BB925900F21574 /* MyCustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0D78D429BB925900F21574 /* MyCustomClass.swift */; };
+		AE0D78D729BB934900F21574 /* MyCustomClassArchiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0D78D629BB934900F21574 /* MyCustomClassArchiver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 		AE0D78BF29BB920400F21574 /* NSSecureCodingDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSSecureCodingDebug.h; sourceTree = "<group>"; };
 		AE0D78C429BB920400F21574 /* NSSecureCodingDebugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSSecureCodingDebugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0D78C929BB920400F21574 /* NSSecureCodingDebugTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSSecureCodingDebugTests.swift; sourceTree = "<group>"; };
+		AE0D78D429BB925900F21574 /* MyCustomClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomClass.swift; sourceTree = "<group>"; };
+		AE0D78D629BB934900F21574 /* MyCustomClassArchiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomClassArchiver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				AE0D78BF29BB920400F21574 /* NSSecureCodingDebug.h */,
+				AE0D78D429BB925900F21574 /* MyCustomClass.swift */,
+				AE0D78D629BB934900F21574 /* MyCustomClassArchiver.swift */,
 			);
 			path = NSSecureCodingDebug;
 			sourceTree = "<group>";
@@ -144,6 +150,7 @@
 				TargetAttributes = {
 					AE0D78BB29BB920400F21574 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 					AE0D78C329BB920400F21574 = {
 						CreatedOnToolsVersion = 14.2;
@@ -191,6 +198,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE0D78D529BB925900F21574 /* MyCustomClass.swift in Sources */,
+				AE0D78D729BB934900F21574 /* MyCustomClassArchiver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +340,7 @@
 		AE0D78CF29BB920400F21574 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -358,6 +368,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +377,7 @@
 		AE0D78D029BB920400F21574 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -401,6 +413,7 @@
 		AE0D78D229BB920400F21574 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P2PHZ9K5JJ;
@@ -421,6 +434,7 @@
 		AE0D78D329BB920400F21574 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P2PHZ9K5JJ;
