@@ -13,6 +13,7 @@
 		AE92150629BB97BF00284799 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE92150529BB97BF00284799 /* Preview Assets.xcassets */; };
 		AE92151029BB97BF00284799 /* NSSecureCodingClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE92150F29BB97BF00284799 /* NSSecureCodingClientTests.swift */; };
 		AE92153329BB9DDF00284799 /* MyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = AE92153229BB9DDF00284799 /* MyLibrary */; };
+		AE92153729BB9F7400284799 /* MyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = AE92153629BB9F7400284799 /* MyLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE92153729BB9F7400284799 /* MyLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +162,9 @@
 				AE92150D29BB97BF00284799 /* PBXTargetDependency */,
 			);
 			name = NSSecureCodingClientTests;
+			packageProductDependencies = (
+				AE92153629BB9F7400284799 /* MyLibrary */,
+			);
 			productName = NSSecureCodingClientTests;
 			productReference = AE92150B29BB97BF00284799 /* NSSecureCodingClientTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -515,6 +520,10 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		AE92153229BB9DDF00284799 /* MyLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyLibrary;
+		};
+		AE92153629BB9F7400284799 /* MyLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = MyLibrary;
 		};
