@@ -12,6 +12,7 @@
 		AE92150229BB97BF00284799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE92150129BB97BF00284799 /* Assets.xcassets */; };
 		AE92150629BB97BF00284799 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE92150529BB97BF00284799 /* Preview Assets.xcassets */; };
 		AE92151029BB97BF00284799 /* NSSecureCodingClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE92150F29BB97BF00284799 /* NSSecureCodingClientTests.swift */; };
+		AE92153329BB9DDF00284799 /* MyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = AE92153229BB9DDF00284799 /* MyLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		AE92150F29BB97BF00284799 /* NSSecureCodingClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSSecureCodingClientTests.swift; sourceTree = "<group>"; };
 		AE92152929BB9A8B00284799 /* NSSecureCodingFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NSSecureCodingFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE92152D29BB9B9A00284799 /* NSSecureCodingFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NSSecureCodingFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE92153129BB9DD500284799 /* MyLibrary */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MyLibrary; path = ../MyLibrary; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE92153329BB9DDF00284799 /* MyLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +61,7 @@
 		AE9214F129BB97BE00284799 = {
 			isa = PBXGroup;
 			children = (
+				AE92153029BB9DD500284799 /* Packages */,
 				AE9214FC29BB97BE00284799 /* NSSecureCodingClient */,
 				AE92150E29BB97BF00284799 /* NSSecureCodingClientTests */,
 				AE9214FB29BB97BE00284799 /* Products */,
@@ -111,6 +115,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AE92153029BB9DD500284799 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				AE92153129BB9DD500284799 /* MyLibrary */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -127,6 +139,9 @@
 			dependencies = (
 			);
 			name = NSSecureCodingClient;
+			packageProductDependencies = (
+				AE92153229BB9DDF00284799 /* MyLibrary */,
+			);
 			productName = NSSecureCodingClient;
 			productReference = AE9214FA29BB97BE00284799 /* NSSecureCodingClient.app */;
 			productType = "com.apple.product-type.application";
@@ -497,6 +512,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE92153229BB9DDF00284799 /* MyLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AE9214F229BB97BE00284799 /* Project object */;
 }
