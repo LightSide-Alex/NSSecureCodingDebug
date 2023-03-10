@@ -1,10 +1,3 @@
-//
-//  MyCustomClass.swift
-//  NSSecureCodingFramework
-//
-//  Created by Oleksandr Balan on 2023-03-10.
-//
-
 import Foundation
 
 public class MyCustomClass: NSObject, NSSecureCoding {

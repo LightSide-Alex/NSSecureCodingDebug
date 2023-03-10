@@ -13,14 +13,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
+            skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AE0D78C329BB920400F21574"
-               BuildableName = "NSSecureCodingFrameworkTests.xctest"
-               BlueprintName = "NSSecureCodingFrameworkTests"
-               ReferencedContainer = "container:NSSecureCodingFramework.xcodeproj">
+               BlueprintIdentifier = "MyLibraryTests"
+               BuildableName = "MyLibraryTests"
+               BlueprintName = "MyLibraryTests"
+               ReferencedContainer = "container:">
             </BuildableReference>
          </TestableReference>
       </Testables>

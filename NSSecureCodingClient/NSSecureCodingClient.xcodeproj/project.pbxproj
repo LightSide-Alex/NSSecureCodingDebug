@@ -12,8 +12,6 @@
 		AE92150229BB97BF00284799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE92150129BB97BF00284799 /* Assets.xcassets */; };
 		AE92150629BB97BF00284799 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE92150529BB97BF00284799 /* Preview Assets.xcassets */; };
 		AE92151029BB97BF00284799 /* NSSecureCodingClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE92150F29BB97BF00284799 /* NSSecureCodingClientTests.swift */; };
-		AE92152A29BB9A8B00284799 /* NSSecureCodingFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE92152929BB9A8B00284799 /* NSSecureCodingFramework.framework */; };
-		AE92152B29BB9A8B00284799 /* NSSecureCodingFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE92152929BB9A8B00284799 /* NSSecureCodingFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,20 +23,6 @@
 			remoteInfo = NSSecureCodingClient;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		AE92152C29BB9A8C00284799 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				AE92152B29BB9A8B00284799 /* NSSecureCodingFramework.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AE9214FA29BB97BE00284799 /* NSSecureCodingClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSSecureCodingClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE92152A29BB9A8B00284799 /* NSSecureCodingFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +121,6 @@
 				AE9214F629BB97BE00284799 /* Sources */,
 				AE9214F729BB97BE00284799 /* Frameworks */,
 				AE9214F829BB97BE00284799 /* Resources */,
-				AE92152C29BB9A8C00284799 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
